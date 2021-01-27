@@ -13,6 +13,7 @@
 		3A0B1F4325C1A7F8003E6C32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A0B1F4125C1A7F8003E6C32 /* Main.storyboard */; };
 		3A0B1F4525C1A7F9003E6C32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A0B1F4425C1A7F9003E6C32 /* Assets.xcassets */; };
 		3A0B1F4825C1A7F9003E6C32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A0B1F4625C1A7F9003E6C32 /* LaunchScreen.storyboard */; };
+		3A0B1F5325C1A938003E6C32 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0B1F5225C1A938003E6C32 /* Car.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3A0B1F4425C1A7F9003E6C32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A0B1F4725C1A7F9003E6C32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A0B1F4925C1A7F9003E6C32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A0B1F5225C1A938003E6C32 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		3A0B1F3A25C1A7F7003E6C32 /* swift_tutorial_calcapp */ = {
 			isa = PBXGroup;
 			children = (
+				3A0B1F5125C1A916003E6C32 /* Model */,
 				3A0B1F3B25C1A7F8003E6C32 /* AppDelegate.swift */,
 				3A0B1F3D25C1A7F8003E6C32 /* SceneDelegate.swift */,
 				3A0B1F3F25C1A7F8003E6C32 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				3A0B1F4925C1A7F9003E6C32 /* Info.plist */,
 			);
 			path = swift_tutorial_calcapp;
+			sourceTree = "<group>";
+		};
+		3A0B1F5125C1A916003E6C32 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A0B1F5225C1A938003E6C32 /* Car.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				3A0B1F4025C1A7F8003E6C32 /* ViewController.swift in Sources */,
 				3A0B1F3C25C1A7F8003E6C32 /* AppDelegate.swift in Sources */,
+				3A0B1F5325C1A938003E6C32 /* Car.swift in Sources */,
 				3A0B1F3E25C1A7F8003E6C32 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,7 +308,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jun-web-free.swift-tutorial-calcapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +327,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jun-web-free.swift-tutorial-calcapp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
